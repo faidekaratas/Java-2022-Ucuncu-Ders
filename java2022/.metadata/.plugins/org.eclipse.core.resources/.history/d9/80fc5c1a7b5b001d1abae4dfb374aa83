@@ -1,0 +1,11 @@
+package business;
+
+import entities.Instructor;
+
+// iş kuralları buraya yazılır.
+
+public class InstructorManager {
+public void add(Instructor instructor) {
+	
+}
+}

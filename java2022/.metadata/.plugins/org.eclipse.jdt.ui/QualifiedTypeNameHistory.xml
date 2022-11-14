@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.business.ProductManager"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.entities.Product"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.JdbcProductDao"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.loging.loger"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.loging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.loging.FileLogger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.loging.MailLogger"/>
+    <fullyQualifiedTypeName name="dataAccess.ICategoryDao"/>
+    <fullyQualifiedTypeName name="dataAccess.ICourseDao"/>
+    <fullyQualifiedTypeName name="dataAccess.IInstructorDao"/>
+    <fullyQualifiedTypeName name="core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="business.CategoryManager"/>
+    <fullyQualifiedTypeName name="dataAccess.JdbcCategoryDao"/>
+    <fullyQualifiedTypeName name="entities.Category"/>
+    <fullyQualifiedTypeName name="business.CourseManager"/>
+    <fullyQualifiedTypeName name="entities.Course"/>
+    <fullyQualifiedTypeName name="dataAccess.JdbcCourseDao"/>
+    <fullyQualifiedTypeName name="core.logging.ILogger"/>
+    <fullyQualifiedTypeName name="business.InstructorManager"/>
+    <fullyQualifiedTypeName name="dataAccess.JdbcInstructorDao"/>
+    <fullyQualifiedTypeName name="entities.Instructor"/>
+</qualifiedTypeNameHistroy>

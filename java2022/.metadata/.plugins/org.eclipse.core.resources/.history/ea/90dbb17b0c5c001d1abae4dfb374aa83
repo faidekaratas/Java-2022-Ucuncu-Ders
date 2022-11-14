@@ -1,0 +1,20 @@
+package business;
+
+import dataAccess.IInstructorDao;
+import entities.Instructor;
+
+// iş kuralları buraya yazılır.
+
+public class InstructorManager {
+	private IInstructorDao instructorDao;
+	
+	
+public InstructorManager(IInstructorDao instructorDao) {
+		this.instructorDao = instructorDao;
+	}
+
+
+public void add(Instructor instructor) {
+	
+}
+}

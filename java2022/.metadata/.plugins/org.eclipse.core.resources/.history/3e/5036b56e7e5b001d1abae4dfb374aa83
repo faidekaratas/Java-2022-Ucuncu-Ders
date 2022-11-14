@@ -1,0 +1,16 @@
+package business;
+
+import dataAccess.ICategoryDao;
+import entities.Category;
+
+public class CategoryManager {
+	private ICategoryDao categoryDao;
+	
+public CategoryManager(ICategoryDao categoryDao) {
+		this.categoryDao = categoryDao;
+	}
+
+public void add(Category category) {
+	
+}
+}

@@ -1,0 +1,21 @@
+import business.CategoryManager;
+import core.logging.DatabaseLogger;
+import core.logging.FileLogger;
+import core.logging.ILogger;
+import core.logging.MailLogger;
+import dataAccess.JdbcCategoryDao;
+import entities.Category;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ILogger[] loggers= {
+				new DatabaseLogger(), new FileLogger(), new MailLogger()
+		};
+		CategoryManager categoryManager=new CategoryManager(new JdbcCategoryDao(),loggers);
+Category category=new Category(1,"Programlama");
+
+		categoryManager.add(category);
+	}
+
+}

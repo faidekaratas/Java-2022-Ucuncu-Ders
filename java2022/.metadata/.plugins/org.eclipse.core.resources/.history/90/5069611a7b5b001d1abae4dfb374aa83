@@ -1,0 +1,9 @@
+package business;
+
+import entities.Course;
+
+public class CourseManager {
+public void add(Course course) {
+	
+}
+}
